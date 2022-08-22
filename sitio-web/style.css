@@ -1,0 +1,28 @@
+
+.title{
+    color: blueviolet
+}
+
+#subtitle {
+    color: aquamarine
+}
+
+h1 {
+    font-size: 50px;
+}
+
+* {
+    color: lightcoral;
+}
+
+input[type="text"] {}
+
+.card {
+    border: 3px solid black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        border: 3px solid blue;
+    }
+}
